@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 2190685 */
+    src: url('http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.eot');
+    src: url('http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.woff2') format('woff2'),
+    url('http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.svg#iconfont') format('svg');
+  }
+
+  a {
+    text-decoration: none;
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale; 
+}
+.header {
+    position: relative;
+    width: 1200px;
+    height: 105px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header img {
+    position: absolute;
+    top: 25px;
+}
+.header .ms {
+    position: absolute;
+    left: 190px;
+    top:35px;
+    border-left: 2px solid red;
+    padding: 5px 10px;
+}
+.search {
+    position: absolute;
+    width: 534px;
+    height: 36px;
+    top: 34.5px;
+    left: 356px;
+    padding: 1px;
+    border: 2px solid red;
+}
+.search input {
+    outline: none;
+    float: left;
+    width: 454px;
+    height: 36px;
+    padding-left: 10px;
+    border:0px solid transparent;
+    border-right:none;
+}
+
+.search button {
+    width: 80px;
+    height: 36px;
+    color: white;
+    border:0px solid transparent;
+    background-color: red;
+}
+.car {
+    position: absolute;
+    top:35px;
+    right: 40px;
+    border: 1px solid rgb(179, 177, 177);
+    background-color: rgb(247, 247, 247);
+
+}
+.car a {
+    display: inline-block;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+.car .gwsl {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: 41px;
+    margin-top: -5px;
+}
+.car .gwc{
+    position: static;
+}
+.hotwords {
+    position: absolute;
+    bottom: 8px;
+    left: 365px;
+    font-size:12px;
+}
+.hotwords a {
+    margin:0px  6px;
+}
+.hotwords a:hover {
+    color: red;
+}
+
+.nav {
+    height: 47px;
+    border-bottom: 3px solid red;
+}
+.navv {
+    width: 1200px;
+    height: 47px;
+    margin: auto;
+
+}
+.nav h4,.nav span {
+    float: left;
+    line-height: 47px;
+    margin: 0px 25px;
+}
+.nav a{
+    color:black;
+}
+.nav a:hover {
+    color: red;
+}
+.nav h4:hover a{
+    color:black
+}
+.nx {
+    overflow: hidden;
+    width: 1200px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    background: url("images/背景.png");
+}
+.nx h2 {
+    color: red;
+    margin: 30px 0px 15px 0px;
+}
+.nx img {
+    vertical-align: middle;
+    margin-right:5px;
+}
+.shop {
+    width: 1200px;
+    margin: auto;
+    height: 1000px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.shop i {
+    font-style:normal;
+}
+.shop .all {
+    float: left;
+    width: 284px;
+    margin-left:14px;
+    border: 3px solid transparent;
+}
+.shop .all img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.shop .all i {
+    color: red;
+}
+.shop p {
+    margin: auto;
+    margin: 5px 10px;
+    line-height: 20px;
+}
+.shop .jg {
+    margin: auto;
+    width: 100%;
+    height: 35px;
+}
+.shop .jg span,.shop .jg del{
+    float: left;
+    line-height: 35px;
+}
+.shop .jg span {
+    line-height: 25px;
+    font-size: 25px;
+    color: red;
+}
+.shop .jg span i {
+    font-size: 12px;
+}
+.shop del {
+    vertical-align: middle;
+    color: gray
+}
+.shop .jdt {
+    overflow: hidden;
+    width: 134px;
+    height: 15px;
+    margin-left: 5px;
+    border: 1px solid skyblue;
+    border-radius: 15px;
+}
+.shop .jdt span {
+    width: 100px;
+    height: 100%;
+    margin-left: -10px;
+    background-color: red;
+}
+.shop .qg {
+    float: left;
+    display: block;
+    width: 100%;
+    height: 51px;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 51px;
+    background-color: rgb(182, 65, 65);
+}
+.shop .qg a {
+    color: white;
+}
+.shop  .one {
+    margin:0;
+}
+.shop .four {
+    margin:0;
+    float: right;
+}
+.shop .all:hover {
+    border: 3px solid red;
+}
+

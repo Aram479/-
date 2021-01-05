@@ -1,0 +1,471 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 2190685 */
+    src: url('http://at.alicdn.com/t/font_2190685_0hvdmojp5qvg.eot');
+    src: url('http://at.alicdn.com/t/font_2190685_0hvdmojp5qvg.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_2190685_0hvdmojp5qvg.woff2') format('woff2'),
+    url('http://at.alicdn.com/t/font_2190685_0hvdmojp5qvg.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_2190685_0hvdmojp5qvg.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_2190685_0hvdmojp5qvg.svg#iconfont') format('svg');
+  }
+  .iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale; 
+}
+a {
+    text-decoration: none;
+}
+.head {
+    width: 1200px;
+    height: 87px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.head .logo{
+    float: left;
+    height: 100%;
+}
+.head .logo img {
+    float: left;
+    margin: 16px 0px;
+    vertical-align: middle;
+}
+.head .logo span {
+    float: left;
+    margin: 27px 0px;
+    margin-left: -30px;
+    font-size: 25px;
+}
+.head .search {
+    float: right;
+    width: 425px;
+    height: 35px;
+    padding: 2px;
+    margin: 25px 0px;
+    background-color: rgb(177, 25, 26);
+}
+.head .search input {
+    float: left;
+    outline: none;
+    width: 340px;
+    height: 100%;
+    padding: 10px;
+    border-style: none;
+}
+.head .search button {
+    float: left;
+    outline: none;
+    border-style: none;
+    width: 83px;
+    height: 100%;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+}
+.qbsp {
+    width: 1200px;
+    height: 20px;
+    line-height: 20px;
+    color: red;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.top {
+    width: 1200px;
+    height: 35px;
+    margin: auto;
+    line-height: 35px;
+    background-color: rgb(245, 245, 245);
+}
+.top input {
+    float: left;
+    margin: 11px 6px;
+}
+.top span:nth-child(1) {
+    margin-right: 30px;
+    padding: 0;
+}
+.top span:nth-child(2) {
+    margin: 0px 180px;
+}
+.top span:nth-child(3),.top span:nth-child(4),.top span:nth-child(5) {
+    margin: 0px 60px;
+}
+.top2 {
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    border-bottom: 2px solid rgb(230,230,230);
+    box-sizing: border-box;
+}
+.top2 .fleft {
+    float: left;
+    margin-left: 6px;
+    line-height: 20px;
+}
+.top2 .fleft span {
+    background-color: rgb(200, 22, 35);
+    color: white;
+    margin-left: 5px;
+}
+.top2 input {
+    float: left;
+    margin-top: 5px;  
+}
+.top2 .fright {
+    float: right;
+    font-size: 12px;
+}
+.top2 .fright span:last-child {
+    color:rgb(208, 76, 83)
+}
+.mai {
+    width: 1200px;
+    height: 110px;
+    margin: auto;
+    margin-bottom: -1px;
+    padding: 10px 5px;
+    border: 1px solid rgb(221, 221, 221);
+    box-sizing: border-box;
+}
+.mai input {
+    float: left;
+    margin-right: 5px;
+}
+.mai>img {
+    float: left;
+    margin: 0px 10px;
+    vertical-align: top;
+}
+.jieshao {
+    float: left;
+    font-size: 12px;
+    width: 210px;
+    line-height: 25px;
+    margin-right: 15px;
+}
+.jieshao .lp {
+    float: left;
+    padding: 0;
+}
+.jieshao .lp>img {
+    vertical-align: top;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+.slh {
+    float: left;
+    font-size: 12px;
+    width: 155px;
+    margin-right: 55px;
+}
+.slh p{
+    line-height: 25px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.jb {
+    float: left;
+    line-height: 25px;
+    margin-right: 95px;
+}
+.jb p {
+    width: 70px;
+}
+.sl {
+    float: left;
+    width: 120px;
+    height: 50px;
+    margin-right: 80px;
+}
+.sl .jj span:first-child, .sl .jj span:last-child{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid gray;
+}
+.sl .jj a:first-child span{
+    color: black;
+}
+.sl .jj a:last-child  span{
+    color: red;
+}
+.sl .jj span:nth-child(2) {
+    width: 25px;
+    height: 25px;
+    margin:0px -1px;
+    text-align: center;
+    line-height: 25px;
+    border: 1px solid gray;
+}
+.sl>span {
+    margin: 0px 36px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.jb2 {
+    float: left;
+    line-height: 25px;
+    margin-right: 92px;
+}
+.dele {
+    float: left;
+    line-height: 25px;
+    font-size: 12px;
+}
+.dele a {
+    color: black;
+}
+.mai2 {
+    height: 220px;
+}
+.maii {
+    float: left;
+    width: 530px;
+    height: 190px;
+    margin-right: 25px;
+}
+.hg {
+    width: 545px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    margin-bottom: 23px;
+}
+
+.hg span:nth-child(1) {
+    width: 45px;
+    height: 20px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: red;
+    border: 1px solid red;
+}
+.hg span:nth-child(2),.hg span:nth-child(3) {
+    margin-right: 10px;
+}
+.hg span:nth-child(3) {
+    width: 75px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 20px;
+    background-color: rgb(200, 22, 35);
+}
+.hg span:nth-child(3) a{
+    color: white;
+}
+.hg span:nth-child(1),.hg span:nth-child(3) {
+    margin-top: 2px;
+}
+.type {
+    font-size: 12px;
+    line-height: 25px;
+}
+.maiii {
+    height: 110px;
+}
+.maiii>img {
+    float: left;
+    margin: 0px 10px;
+    vertical-align: top;
+}
+.zp {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    margin-left: 60px;
+}
+.zp span:nth-child(1), .zp span:nth-child(3){
+    width: 233px;
+    margin-right: 10px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.top3 {
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    border-bottom: 2px solid rgb(230,230,230);
+    box-sizing: border-box;
+}
+.top3 .fleft {
+    float: left;
+    margin-left: 6px;
+    line-height: 20px;
+}
+.top3 .fleft span {
+    margin-left: 5px;
+}
+.top3 input {
+    float: left;
+    margin-top: 5px;  
+}
+
+.js {
+    width: 1200px;
+    height: 55px;
+    margin: auto;
+    font-size: 12px;
+    border: 1px solid rgb(221, 221, 221);
+}
+.js .jleft {
+    float: left;
+    line-height: 55px;  
+}
+.js .jleft input {
+    float: left;
+    margin-top:21px;
+}
+.js .jleft span {
+    margin: 0px 5px;
+}
+.js .jright {
+    float: right;
+    width: 330px;
+    margin: 8px 0px;
+    margin-right: 30px;
+    line-height: 20px;
+    text-align: right;
+}
+.js .jright span {
+    float: right;
+    padding: 0;
+}
+.js .jright span {
+    font-size: 16px;
+    color: red;
+    font-weight: 700;
+}
+
+.ss {
+    float: right;
+    width: 110px;
+    height: 55px;
+    font-size: 20px;
+    color: white;
+    border-style: none;
+    background-color: red;
+    outline: none;
+}
+.gz {
+    width: 1200px;
+    height: 78px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.gz p {
+    margin-bottom: 10px;
+}
+.gz .yellow {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 10px;
+    font-size: 12px;
+    background-color: rgb(255, 253, 238);
+    box-sizing: border-box;
+}
+.yellow span:nth-child(1) {
+    width: 212px;
+    margin-right: 328px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.yellow span:nth-child(2),.yellow span:nth-child(3) {
+    margin-right: 210px;
+}
+.like {
+    width: 1200px;
+    height: 42px;
+    margin: auto;
+    font-size: 12px;
+    background-color: rgb(241, 241, 241);
+}
+.like span:first-child {
+    width: 87px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    background-color: rgb(200, 22, 35);
+}
+.like span:last-child {
+    width: 87px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.other {
+    width: 1200px;
+    height: 320px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 12px;
+} 
+.other>a {
+    float: left;
+    width: 20px;
+    height: 50px;
+    background-color: rgb(153,153,153);
+    margin: 135px 0px;
+}
+.other>a:first-child {
+    float: left;
+    margin-right: 20px;
+}
+.other>a:last-child {
+    float: right;
+    margin-left: 20px;
+}
+.other>a i {
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.other span {
+    float: left;
+    width: 248px;
+    height: 305px;
+    margin-right: -1px;
+    padding: 7px 13px;
+    border: 1px dashed gray;
+}
+.other span>img {
+    margin: 0 37px;
+}
+.other span p:nth-child(3) {
+    text-align: center;
+    color: red;
+    margin: 10px 0px;
+}
+
+.other span a {
+    float: left;
+    width: 125px;
+    height: 30px;
+    margin: 0px 60px;
+    border: 1px solid rgb(153, 153, 153);
+    line-height: 30px;
+    text-align: center;
+}
+.other span a img{
+    vertical-align: middle;
+    margin-top: -2px;
+}

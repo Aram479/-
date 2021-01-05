@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.head {
+    width: 1200px;
+    height: 85px;
+    margin: auto;
+}
+.head img {
+    margin: 15px 0px;
+}
+.body {
+    height: 486px;
+    background-color: rgb(127, 0, 255);
+}
+.body .bbody {
+    position: relative;
+    width: 1890px;
+    height: 486px;
+    margin: 0 auto;
+}
+
+.bbody .search {
+    position: absolute;
+    width: 256px;
+    height: 35px;
+    line-height: 35px;
+    bottom: 60px;
+    left:50%;
+    padding: 2px;
+    margin-left: -333px;
+    background-color: red;
+
+}
+.bbody .search input {
+    float: left;
+    width: 167px;
+    height: 100%;
+    outline: none;
+    padding-left: 10px;
+    border:0px solid transparent;
+    border-right:none;
+}
+.bbody .search button {
+    float: left;
+    width: 78px;
+    height: 100%;
+    border-style: none;
+    color: white;
+    background-color: red;
+}
+.bbody .search button,.bbody .search input {
+    font-size: 20px;
+}
+.bbody .denglu {
+    position: absolute;
+    width: 390px;
+    height: 372px;
+    left: 50%;
+    top: 57px;
+    margin-left: 130px;
+    padding: 20px 30px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.denglu .top {
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.denglu .top span {
+    display: inline-block;
+    width: 158px;
+    text-align: center;
+}
+.denglu .top span:first-child {
+    border-right: 1px solid gray;
+}
+.denglu .top span a:hover {
+    color:red;
+}
+.ps {
+    width: 324px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 6px;
+    padding-left: 5px;
+    border: 1px solid rgb(245, 238, 207);
+    background-color: rgb(255, 253, 238);
+}
+.user,.psd {
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(230,230,230);
+    margin-bottom: 10px;
+}
+.user:hover,.psd:hover {
+    border-color: skyblue;
+}
+.user input,.psd input {
+    float: right;
+    outline: none;
+    width: 273px;
+    height: 100%;
+    padding: 0px 10px;
+    border-style: none;
+}
+.user img,.psd img {
+    width: 37px;
+    height: 100%;
+}
+.re {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+}
+.re input {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.re span:first-child {
+    float: left;
+    color: rgb(210,210,210);
+}
+.re span:last-child {
+    float: right;
+}
+.re a {
+    color: black;
+}
+.reg a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 5px 0px;
+    line-height: 40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: red;
+}
+.type img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 34px;
+    margin-right: 10px;
+}
+
+.type a:last-child {
+    margin-left: 40px;
+    color: blue;
+}
+.type a:hover {
+    color: red;
+}
+
+.btup {
+    width: 825px;
+    height: 16px;
+    margin:20px auto;
+}
+.btup p {
+    float: left;
+    margin: 0 3px;
+    font-size: 12px;
+}
+.btup p a {
+    color: black;
+}
+.btup p:hover a{
+    color:red;
+}
+.btdw  {
+    text-align: center;
+    font-size: 12px;
+}
