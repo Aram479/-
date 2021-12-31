@@ -2,10 +2,28 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: 'iconfont';  /* project id 2190685 */
+    src: url('http://at.alicdn.com/t/font_2190685_xx9a5ah05r.eot');
+    src: url('http://at.alicdn.com/t/font_2190685_xx9a5ah05r.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_2190685_xx9a5ah05r.woff2') format('woff2'),
+    url('http://at.alicdn.com/t/font_2190685_xx9a5ah05r.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_2190685_xx9a5ah05r.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_2190685_xx9a5ah05r.svg#iconfont') format('svg');
+  }
+  .iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale; 
+}
 a {
     text-decoration: none;
 }
-
+button {
+    outline:0;
+}
 .head {
     width: 1200px;
     height: 85px;
@@ -95,10 +113,46 @@ a {
     background-color: rgb(255, 253, 238);
 }
 .user,.psd {
+    position: relative;
     width: 100%;
     height: 35px;
     border: 1px solid rgb(230,230,230);
     margin-bottom: 10px;
+}
+.user .s {
+    position: absolute;
+    top: -55px;
+    left: 30px;
+    width: 293px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px 3px rgb(216, 216, 216);
+    line-height: 40px;
+    background-color: white;
+    display: none;
+}
+.user .sj {
+    position: absolute;
+    top:-20px;
+    left: 70px;
+    width:13px;
+    height: 13px;
+    background: skyblue;
+    transform: rotate(-45deg);
+    background-color: #fff;
+    border: 1px solid gray;
+    border-top:none;
+    border-right:none;
+    display: none;
+}
+
+
+.psd i {
+    position: absolute;
+    top: 10px;
+    right: 15px;
 }
 .user:hover,.psd:hover {
     border-color: skyblue;
@@ -137,18 +191,19 @@ a {
 .re a {
     color: black;
 }
-.reg a{
+.reg button{
     display: block;
     width: 100%;
     height: 40px;
     margin: auto;
     margin-bottom: 30px;
     padding: 5px 0px;
-    line-height: 40px;
+    line-height: 36px;
     color: white;
     font-size: 20px;
     text-align: center;
     background-color: red;
+    border: none;
 }
 .type img {
     vertical-align: middle;

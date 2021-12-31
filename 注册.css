@@ -65,12 +65,26 @@ input {
     outline:none;
     vertical-align: middle;
 }
+
+#cw,#zq {
+    display: none;
+}
+#ms {
+    color:gray;
+}
+#ms1,#cw1,#zq1{
+    color:green;
+}
+#ms2 {
+ color: red;
+}
+
 .zc i {
     color: red;
     font-style:normal;
 }
 .zc .sms i{
-    color: green;
+    color: red;
 }
 .zc img {
     vertical-align: middle;
@@ -87,13 +101,13 @@ input {
     color: white;
 }
 .safe .one {
-    background-color: red;
+    background-color: rgb(238, 131, 131);
 }
 .safe .two {
-    background-color: green;
+    background-color: rgb(150, 189, 150);
 }
 .safe .three {
-    background-color: orange;
+    background-color: rgb(243, 216, 165);
 }
 .xy {
     margin-bottom: 40px;
@@ -109,7 +123,7 @@ input {
     color: skyblue;
 }
 
-.finish a{
+.finish button{
     display: block;
     width: 200px;
     height: 34px;
@@ -119,11 +133,10 @@ input {
     font-size: 16px;
     text-align: center;
     background-color: red;
+    border: none;
+    outline: none;
 }
-.finish span a {
-    font-size: 16px;
-    color: white;
-}
+
 
 .btup {
     width: 825px;

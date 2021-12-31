@@ -1,0 +1,498 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "iconfont"; /* project id 2190685 */
+  src: url("http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.eot");
+  src: url("http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.eot?#iefix")
+      format("embedded-opentype"),
+    url("http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.woff2") format("woff2"),
+    url("http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.woff") format("woff"),
+    url("http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.ttf")
+      format("truetype"),
+    url("http://at.alicdn.com/t/font_2190685_pxgih5jyz5o.svg#iconfont")
+      format("svg");
+}
+
+a {
+  text-decoration: none;
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.header {
+  position: relative;
+  width: 1200px;
+  height: 105px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header img {
+  position: absolute;
+  top: 25px;
+}
+.search {
+  position: absolute;
+  width: 534px;
+  height: 36px;
+  top: 34.5px;
+  left: 331px;
+  padding: 1px;
+  border: 2px solid red;
+}
+.search input {
+  outline: none;
+  float: left;
+  width: 454px;
+  height: 36px;
+  padding-left: 10px;
+  border: 0px solid transparent;
+  border-right: none;
+}
+.search1 {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  z-index: 100;
+}
+.search button {
+  width: 80px;
+  height: 36px;
+  color: white;
+  border: 0px solid transparent;
+  background-color: red;
+  outline: none;
+}
+.car {
+  position: absolute;
+  top: 35px;
+  right: 40px;
+  border: 1px solid rgb(179, 177, 177);
+  background-color: rgb(247, 247, 247);
+}
+.car a {
+  display: inline-block;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 10px;
+}
+.car .gwsl {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: 41px;
+  margin-top: -5px;
+}
+.car .gwc {
+  position: static;
+}
+
+.hotwords {
+  position: absolute;
+  bottom: 8px;
+  left: 365px;
+  font-size: 12px;
+}
+.hotwords a {
+  margin: 0px 6px;
+}
+.hotwords a:hover {
+  color: red;
+}
+.nav {
+  position: relative;
+  width: 1200px;
+  height: 47px;
+  margin: 0 auto;
+  border-bottom: 2px solid red;
+}
+.nav a,
+.nav span {
+  float: left;
+  padding: 0px 25px;
+  line-height: 47px;
+  transition: background-color .15s ease-out;
+}
+
+.nav span {
+  padding: 0px 55px;
+  color: white;
+  background-color: rgb(177, 25, 26);
+}
+
+.nav>a:hover {
+  color: white;
+  background-color: rgb(177, 25, 26);
+}
+.shop {
+  position: absolute;
+  width: 206px;
+  height: 467px;
+  background-color: rgba(255, 62, 62, 0.7);
+  z-index: 1;
+  top:46px
+}
+.shop a {
+  display: block;
+  margin: 0;
+  padding: 0px;
+  font-size: 14px;
+  line-height: 31.5px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+}
+.shop a i {
+  float: right;
+}
+.shop a:hover {
+  background-color: white;
+  color: red;
+}
+.middle {
+  position: relative;
+  width: 1200px;
+  height: 455px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.middle .focus {
+  position: absolute;
+  width: 721px;
+  height: 455px;
+  left: 220px;
+  overflow: hidden;
+}
+
+.middle .focus img {
+  width: 721px;
+  height: 455px;
+  cursor: pointer;
+  transition: opacity .2s ease-in;
+}
+.middle .focus img:hover {
+  background-color: white;
+  opacity: 0.9;
+}
+.middle .focus span {
+  position: absolute;
+  right: -9px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.5;
+  width: 15px;
+  height: 30px;
+  top: 227px;
+  transform: translateY(-50%);
+  line-height: 30px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 99;
+  display: none;
+  user-select: none;
+  transition: opacity .2s ease-in-out;
+}
+.middle .focus span:nth-child(1) {
+  left: 0;
+  border-radius: 0 5px 5px 0;
+}
+.middle .focus span:hover {
+    opacity: .8;
+  }
+.middle .focus span:nth-child(3) {
+  right: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+.middle .focus .little {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 15px;
+  background: rgba(253, 253, 253, 0.5);
+  border-radius: 10px;
+}
+.little p {
+  float: left;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  margin:3px 5px;
+  border-radius: 10px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.middle .newsflash {
+  position: absolute;
+  width: 248px;
+  height: 396px;
+  right: 0;
+  border: 1px solid gray;
+}
+.newsflash .newhead {
+  height: 33px;
+  line-height: 33px;
+  padding: 0px 15px;
+  border-bottom: 1px dashed gray;
+}
+.newsflash .newhead span {
+  font-weight: 700;
+}
+.newsflash a {
+  float: right;
+  color: black;
+  font-size: 12px;
+  line-height: 33px;
+}
+.newsflash a:hover {
+  color: red;
+}
+.newsflash .news {
+  width: 218px;
+  height: 140px;
+  padding: 5px 15px;
+  border-bottom: 1px solid gray;
+}
+.newsflash .news a {
+  width: 218px;
+  white-space: nowrap;
+  line-height: 28px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.newsflash .life {
+  width: 260px;
+}
+.newsflash .life span {
+  float: left;
+  width: 62px;
+  height: 70px;
+  text-align: center;
+  font-size: 12px;
+  padding: 0;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-right: -1px;
+}
+.newsflash .life span i {
+  display: block;
+  padding: 5px 0px;
+  font-size: 35px !important;
+  color: red;
+}
+.newsflash .life .four,
+.eight,
+.twelve {
+  border-right: none !important;
+}
+.middle .newsflash .twelve,
+.nine,
+.ten,
+.eleven {
+  border-bottom: none !important;
+}
+.middle .fixed {
+  position: absolute;
+  width: 75px;
+  height: 375px;
+  left: 50%;
+  margin-left: -678px;
+  font-size: 12px;
+}
+.middle .fixed p {
+  height: 31px;
+  text-align: center;
+  line-height: 33px;
+}
+.middle .fixed p a {
+  display: inline-block;
+  height: 30px;
+  padding: 0px 5px;
+  border-bottom: 1px solid rgba(230, 230, 230);
+}
+.middle .fixed p:hover a {
+  color: white;
+  width: 65px;
+  background-color: red;
+  border: transparent;
+}
+.middle .fixed .first {
+  color: white;
+  border-bottom: none;
+  background-color: rgb(177, 25, 26);
+}
+.middle .fixed .db {
+  display: none;
+}
+.recom {
+  width: 1200px;
+  height: 163px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgb(235, 235, 235);
+}
+.recom p {
+  float: left;
+  width: 205px;
+  height: 163px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.recom p span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 10px;
+  margin-left: 20px ;
+
+}
+.recom i {
+  display: block;
+  font-size: 60px;
+  
+}
+
+.recom .lrecom {
+  float: left;
+  width: 990px;
+  height: 133px;
+  margin: 15px 0px;
+}
+.recom .lrecom span {
+  float: left;
+  height: 133px;
+  padding: 0px 5px;
+  border-left: 1px solid gray;
+}
+.recom .lrecom img {
+  width: 234px;
+  height: 133px;
+}
+.recom .lrecom .one {
+  border-left: none;
+  margin-left: 4px;
+}
+.box_hd {
+  width: 1200px;
+  height: 30px;
+  line-height: 30px;
+  margin: auto;
+  margin-top: 10px;
+  border-bottom: 2px solid red;
+}
+.box_hd span {
+  float: left;
+  color: tomato;
+}
+.box_hd .right {
+  float: right;
+  font-size: 12px;
+  color: black;
+}
+.box_hd .right a {
+  margin: 0px 15px;
+}
+.box_hd .right a:hover {
+  color: red;
+}
+.floor {
+  width: 1200px;
+  height: 361px;
+  margin: auto;
+  overflow: hidden;
+}
+.floor .fleft {
+  float: left;
+  width: 210px;
+  font-size: 12px;
+}
+.floor .fleft span {
+  width: 72px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+  border-bottom: 1px solid gray;
+  font-size: 12px;
+  text-align: center;
+}
+.floor .fleft span:hover a {
+  color: red;
+}
+.floor .fleft .flimg1 {
+  margin: 10px 0px;
+}
+.floor .flimg2 {
+  float: left;
+  width: 330px;
+  height: 360px;
+  background-color: rgb(198, 232, 182);
+}
+.floor .fleft2 {
+  float: left;
+  width: 222px;
+  height: 360px;
+}
+.floor .fleft3 {
+  float: left;
+  width: 220px;
+  height: 360px;
+}
+.floor .fleft4 {
+  float: left;
+  width: 218px;
+  height: 360px;
+}
+.floor .fleft2,
+.fleft3 {
+  border-right: 1px solid rgb(240, 240, 240);
+  box-sizing: border-box;
+}
+.floor div img {
+  transition: margin-left 0.5s;
+}
+.floor div:hover img {
+  margin-left: 10px;
+}
+.fleft,
+.flimg2,
+.fleft2,
+.fleft3,
+.fleft4 {
+  overflow: hidden;
+}
+.zanzhu {
+  width: 1200px;
+  height: 67px;
+  margin: 10px auto;
+}
+.zanzhu img {
+  float: left;
+  width: 108px;
+  height: 50px;
+  margin: 8.5px 0px;
+  padding: 0px 4px;
+  border-right: 1px dashed gray;
+}
+.zanzhu .first {
+  margin-left: 10px;
+}
+.zanzhu .last {
+  border-right: none;
+}

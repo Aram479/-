@@ -18,6 +18,9 @@
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale; 
 }
+i {
+    font-style:normal
+}
 a {
     text-decoration: none;
 }
@@ -200,13 +203,14 @@ a {
 .sl .jj a:last-child  span{
     color: red;
 }
-.sl .jj span:nth-child(2) {
-    width: 25px;
+.sl .jj input {
+    width: 40px;
     height: 25px;
     margin:0px -1px;
     text-align: center;
     line-height: 25px;
     border: 1px solid gray;
+    outline: none;
 }
 .sl>span {
     margin: 0px 36px;
@@ -222,6 +226,9 @@ a {
     float: left;
     line-height: 25px;
     font-size: 12px;
+}
+.dele .sc:hover {
+    color: red;
 }
 .dele a {
     color: black;
@@ -334,6 +341,10 @@ a {
 .js .jleft span {
     margin: 0px 5px;
 }
+.jleft .scxz:hover {
+    color: red;
+    cursor: pointer;
+}
 .js .jright {
     float: right;
     width: 330px;
@@ -341,6 +352,10 @@ a {
     margin-right: 30px;
     line-height: 20px;
     text-align: right;
+}
+.js .jright .zsl {
+    font-size: 14px;
+    color: red;
 }
 .js .jright span {
     float: right;

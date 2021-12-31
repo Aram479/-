@@ -19,6 +19,7 @@
                 <input type="text">
                 <button>搜索</button>
             </div>
+            <form action="主页面.html">
             <div class="denglu">
                 <div class="top">
                     <span><a href="">扫描登陆</a></span>
@@ -29,11 +30,14 @@
                 </div>
                 <div class="user">
                     <img src="images/账号.png" alt="">
-                    <input type="text" placeholder="邮箱/用户名/手机号">
+                        <div class="s"></div>
+                        <div class="sj"></div>
+                    <input type="text" placeholder="邮箱/用户名/手机号" name="uname">
                 </div>
                 <div class="psd">
                     <img src="images/密码.png" alt="">
-                    <input type="text" placeholder="请输入密码">
+                    <input type="password" placeholder="请输入密码">
+                    <i class="iconfont">&#xe605;</i>
                 </div>
                 <div class="re">
                     <span>
@@ -42,9 +46,11 @@
                     </span>
                     <span><a href="#">忘记密码？</a></span>
                 </div>
+                
                 <div class="reg">
-                    <a href="">登录</a>
+                    <button>登录</button>
                 </div>
+            </form>
                 <div class="type">
                     <a href=""><img src="images/登录方式.png" alt=""></a>
                     <a href=""><img src="images/登录方式.png" alt=""></a>
@@ -86,5 +92,5 @@
         京ICP备08001421号京公网安备110108007702
     </div>
 </body>
-
+<script src = "登录.js"></script>
 </html>
